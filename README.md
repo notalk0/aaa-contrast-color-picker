@@ -1,8 +1,8 @@
 # AAA+ Contrast Color Picker
 
-Using this tool for ensuring that a contrast ratio of at least 7:1 exists between text (and images of text) and background behind the text. Since high contrast level will cause eye strain, this tool will only suggest a color on contrast level between 7.1 to 7.5. 
+This tool suggest a color by contrast ratio of least 7:1 exists between text and background. Since high contrast level will cause eye strain, this tool will only suggest a color on contrast level between 7.1 to 7.5. 
 
-(Current version only generate lighter color for chosen base color, in future will add in complementary colors etc.)
+(Current version only generate lighter color for chosen base color, in the future will add in complementary colors etc.)
 
 Try out:  https://admiring-northcutt-34c9e0.netlify.com
 
