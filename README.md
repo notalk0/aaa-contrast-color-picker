@@ -1,5 +1,7 @@
 # AAA+ Contrast Color Picker
 
+This tool is to pick a color to ennsuring that a contrast ratio of at least 7:1 exists between text (and images of text) and background behind the text.
+
 Try out:  https://admiring-northcutt-34c9e0.netlify.com
 
 
