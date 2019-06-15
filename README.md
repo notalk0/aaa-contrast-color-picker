@@ -1,6 +1,6 @@
 # AAA+ Contrast Color Picker
 
-Live Demo:  https://admiring-northcutt-34c9e0.netlify.com
+Try out:  https://admiring-northcutt-34c9e0.netlify.com
 
 
 ![Preview](http://i64.tinypic.com/2md48bt.jpg)
