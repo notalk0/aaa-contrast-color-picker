@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-$theme-color: #e6e6e6;
-
 body {
     font-family: 'Montserrat', Courier, monospace;
 }
@@ -13,16 +11,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 0.5px solid #000;
 }
 
 .theme {
-    background-color: $theme-color;
-    color: darken($theme-color, 70%);
+    background-color: #e6e6e6;
+    color: #4a4a4a;
 }
 
 .contrast {
-    background-color: darken($theme-color, 70%);
-    color: $theme-color;
+    background-color: #4a4a4a;
+    color: #e6e6e6;
+    margin-top: 10px;
 }
 
 .pickr {

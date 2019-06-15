@@ -16,16 +16,18 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border: 0.5px solid #000;
 }
 
 .theme {
   background-color: #e6e6e6;
-  color: #343434;
+  color: #4a4a4a;
 }
 
 .contrast {
-  background-color: #343434;
+  background-color: #4a4a4a;
   color: #e6e6e6;
+  margin-top: 10px;
 }
 
 .pickr {
