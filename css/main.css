@@ -16,7 +16,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 0.5px solid #000;
 }
 
 .theme {
@@ -33,5 +32,20 @@ body {
 .pickr {
   display: inline-block;
   margin-bottom: 10px;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+.title h1 {
+  margin: 10px 10px 10px 0;
 }
 /*# sourceMappingURL=main.css.map */
