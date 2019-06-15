@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>AAA+ Contrast Color Picker</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.css" />
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<body>
+  <body>
     <div class="title">
-        <h1>AAA+ Contrast Color Picker</h1>
-        <!-- Place this tag where you want the button to render. -->
-        <a class="github-button" href="https://github.com/notalk0/aaa-contrast-color-picker" label="View Github">View
-            Github</a>
+      <h1>AAA+ Contrast Color Picker</h1>
+      <!-- Place this tag where you want the button to render. -->
+      <a
+        class="github-button"
+        href="https://github.com/notalk0/aaa-contrast-color-picker"
+        label="View Github"
+        >View Github</a
+      >
     </div>
-
-    Choose a color: &nbsp;&nbsp; <div class="color-picker"></div>
+    <p>
+      This tool suggest a color by contrast ratio of least 7:1 between text and
+      background. (Current version only generate a lighter color for base color)
+    </p>
+    Choose a base color: &nbsp;&nbsp;
+    <div class="color-picker"></div>
     <div class="panel theme" id="panel">
-        <h1 id="themeText">#e6e6e6</h1>
+      <h1 id="themeText">#e6e6e6</h1>
     </div>
 
     Suggest Contrast Color - <span id="ratioText">Ratio: (1: 7.10)</span>
     <div class="panel contrast" id="contrast">
-        <h1 id="contrastText">#4a4a4a</h1>
+      <h1 id="contrastText">#4a4a4a</h1>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
@@ -33,6 +43,5 @@
     <script src="app.js"></script>
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-</body>
-
+  </body>
 </html>
