@@ -34,7 +34,6 @@ pickr.on('change', (...args) => {
     ? tiny.lighten(70).toString()
     : tiny.darken(70).toString();
 
-  console.log(this.themeText);
   this.panel.style.backgroundColor = color;
   this.contrast.style.backgroundColor = contrastColor;
 
