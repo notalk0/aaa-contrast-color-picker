@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+  font-family: 'Montserrat', Courier, monospace;
+}
+
+.panel {
+  width: 100%;
+  height: 35vh;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.theme {
+  background-color: #e6e6e6;
+  color: #343434;
+}
+
+.contrast {
+  background-color: #343434;
+  color: #e6e6e6;
+}
+
+.pickr {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=main.css.map */
