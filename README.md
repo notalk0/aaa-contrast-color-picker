@@ -6,8 +6,6 @@ This tool suggest a color by contrast ratio of least 7:1 between text and backgr
 
 Try out: https://admiring-northcutt-34c9e0.netlify.com
 
-![Preview](http://i64.tinypic.com/2md48bt.jpg)
-
 This project is for fun, experiment purposes and self shortcut use only, may not suitable for a professional web designer, if you're finding a professional color palette just search online you probably can get tons of it.
 
 This repo using the following packages:
